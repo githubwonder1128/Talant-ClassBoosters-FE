@@ -10,4 +10,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.html [L]
     
-    Redirect 301 index.html /
+    Redirect 301 http://classboosters.com
+</IfModule>
