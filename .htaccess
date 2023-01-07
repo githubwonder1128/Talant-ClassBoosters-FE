@@ -11,4 +11,5 @@
     RewriteRule ^ index.html [L]
     
     Redirect 301 http://classboosters.com
+    ErrorDocument 404 /index.html
 </IfModule>
